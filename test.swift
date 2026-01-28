@@ -143,3 +143,18 @@
 
 // var increment = makeIncrementer()
 // print(increment(7))
+
+// func hasAnyMatches(in array: [Int], condition: (Int) -> Bool) -> Bool{
+//     for value in array{
+//         if condition(value){
+//             return true
+//         }
+//     }
+//     return false
+// }
+
+// func containsEvenNumber(numbers: [Int]) -> Bool{
+//     return hasAnyMatches(in: numbers, condition: { number in number % 2 == 0 })
+// }
+
+// print(containsEvenNumber(numbers: [1, 9, 3, 7]))
